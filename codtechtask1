@@ -1,0 +1,77 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Kaveri Dixith</title>
+    <link rel="stylesheet" href="proto.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+        <div class="intro">
+            <h1>Hi, I'm Kaveri Dixith</h1>
+            <p>A passionate Computer Science Student</p>
+            <p>Welcome to my portfolio!</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I'm currently a B.Tech student specializing in Computer Science. I have a strong interest in web development, software engineering, and data structures. I'm passionate about building innovative projects that solve real-world problems.</p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-container">
+            <div class="project">
+                <h3>Project 1: Online Library System</h3>
+                <p>A web application to manage books and members for a library. Built using HTML, CSS, JavaScript, and Node.js.</p>
+            </div>
+            <div class="project">
+                <h3>Project 2: Personal Blog</h3>
+                <p>A blogging platform where users can create, edit, and delete posts. Built with React, Node.js, and MongoDB.</p>
+            </div>
+            <div class="project">
+                <h3>Project 3: E-commerce Website</h3>
+                <p>An online store platform with product listing, shopping cart, and checkout. Built with HTML, CSS, and JavaScript.</p>
+            </div>
+            <div class="project">
+                <h3>Project 4: Weather App</h3>
+                <p>A weather application that fetches data from an API to display real-time weather updates. Developed using JavaScript and API integration.</p>
+            </div>
+            <div class="project">
+                <h3>Project 5: Portfolio Website</h3>
+                <p>This portfolio site showcases my work and experience. Built with HTML, CSS, and JavaScript.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Feel free to reach out to me!</p>
+        <form id="contact-form">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <script src="protofolio.js"></script>
+</body>
+</html>
